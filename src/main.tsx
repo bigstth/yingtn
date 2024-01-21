@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { ThemeProvider } from "@/ThemeProvider.tsx";
 import App from "./App.tsx";
 import { SpeedInsights } from "@vercel/speed-insights/react";
+import { inject } from "@vercel/analytics";
 
 import "./index.css";
 
@@ -13,6 +14,8 @@ const router = createBrowserRouter([
     element: <App />,
   },
 ]);
+
+inject();
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
