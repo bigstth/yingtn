@@ -95,11 +95,8 @@ import {
   YT973,
   YT974,
   YT975,
-  YT976,
   YT977,
   YT978,
-  YT979,
-  YT980,
   YT981,
   YT982,
   YT983,
@@ -158,6 +155,11 @@ export const LOGO = [
 ];
 
 export const CONTENT_YT_COVER = [
+  {
+    image: YT49,
+    title: "Thumbnail",
+    views: 14062542,
+  },
   {
     image: YT1,
     title: "Thumbnail",
@@ -399,11 +401,6 @@ export const CONTENT_YT_COVER = [
     views: 14062542,
   },
   {
-    image: YT49,
-    title: "Thumbnail",
-    views: 14062542,
-  },
-  {
     image: YT50,
     title: "Thumbnail",
     views: 14062542,
@@ -639,27 +636,12 @@ export const CONTENT_YT_COVER = [
     views: 14062542,
   },
   {
-    image: YT976,
-    title: "Thumbnail",
-    views: 14062542,
-  },
-  {
     image: YT977,
     title: "Thumbnail",
     views: 14062542,
   },
   {
     image: YT978,
-    title: "Thumbnail",
-    views: 14062542,
-  },
-  {
-    image: YT979,
-    title: "Thumbnail",
-    views: 14062542,
-  },
-  {
-    image: YT980,
     title: "Thumbnail",
     views: 14062542,
   },
