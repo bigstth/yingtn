@@ -10,12 +10,14 @@ import { Button } from "./components/ui/button";
 
 function App() {
   const [offset, setOffset] = useState(12);
+  const ALL_CONTENTS = [...CONTENT_YT_COVER, ...SUPPORT_VDO, ...LOGO];
+
   const PERSONAL_INFO = {
     name: "Tanavan Chinsana",
     image: Profile,
     account: "@yingtn",
     followers: 1266,
-    worksCount: 125,
+    worksCount: ALL_CONTENTS?.length ?? 0,
     description: "Innovative Design for a Digital World.",
     socials: [
       {
@@ -30,8 +32,6 @@ function App() {
       },
     ],
   };
-
-  const ALL_CONTENTS = [...CONTENT_YT_COVER, ...SUPPORT_VDO, ...LOGO];
 
   const loadMoreItems = () => {
     setOffset((prev) => prev + 12);
